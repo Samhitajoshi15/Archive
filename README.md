@@ -9,7 +9,7 @@ This repository is My Journey with Programming, COME. BE A PART OF IT.
 
 ```markdown
 **REGARDS**
-_[Samhita Joshi](https://github.com/Samhitajoshi15)
+_[Samhita Joshi]_(https://github.com/Samhitajoshi15)
 ```
 
 ## HAPPY CODING
