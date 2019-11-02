@@ -1,4 +1,4 @@
-## This is ARCHIVE
+## Welcome to ARCHIVE
 
 You can view the [PROGRAMS](https://github.com/Samhitajoshi15/Archive) that I have uploaded. This repository contains programs / scripts that I have worked upon since October 2019.This is meant to be used as a reference, in case you are not able to come up with a logic for the program.
 
@@ -9,7 +9,7 @@ This repository is My Journey with Programming, COME. BE A PART OF IT.
 
 ```markdown
 **REGARDS**
-_[Samhita Joshi]_(https://github.com/Samhitajoshi15)
+_Samhita Joshi_
 ```
 
-## HAPPY CODING
+## HAPPY [CODING](https://github.com/Samhitajoshi15)
