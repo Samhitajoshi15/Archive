@@ -8,8 +8,8 @@ This repository is My Journey with Programming, COME. BE A PART OF IT.
 
 
 ```markdown
-**REGARDS**
-_Samhita Joshi_
+print("REGARDS")
+print("Samhita Joshi")
 ```
 
 ## HAPPY [CODING](https://github.com/Samhitajoshi15)
