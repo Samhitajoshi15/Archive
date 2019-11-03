@@ -4,7 +4,9 @@ You can view the [PROGRAMS](https://github.com/Samhitajoshi15/Archive) that I ha
 
 Remember that a program can be build in many ways, my way is not neccessarily the only one. But always, you can have a look at my code.
 
-This repository is My Journey with Programming.COME. BE A PART OF IT.
+This repository is My Journey with Programming. 
+
+COME. BE A PART OF IT.
 
 
 ```markdown
