@@ -13,3 +13,29 @@ static void miniMaxSum(int[] arr) {
     System.out.print(minsum+" "+maxsum);
 
     }
+    
+    
+    
+    //I made this in C++
+    #include <iostream>
+#include <bits/stdc++.h> 
+using namespace std;
+int i,j;
+void minmaxsum(long long int arr[])
+{
+    long long int sum=0,minsum=0,maxsum=0;
+    for(int j=0;j<5;j++)
+    sum+=arr[j];
+    minsum= sum-arr[4];
+    maxsum= sum-arr[0];
+    cout<<minsum<<" "<<maxsum;
+}
+int main()
+{
+ long long int arr[5];
+ for(i=0;i<5;i++)
+ cin>>arr[i];
+sort(arr, arr+5);
+minmaxsum(arr);
+ return 0;
+}
