@@ -1,0 +1,23 @@
+https://www.hackerrank.com/challenges/staircase/problem?h_r=next-challenge&h_v=zen&isFullScreen=true
+
+void staircase(int n) {
+for(int i=1;i<=n;i++)
+{
+    for(int j=n-i;j>=1;j--)
+    {
+        cout<<" ";
+    }
+    for(int k=1;k<=i;k++)
+    {
+       cout<<"#";
+    }
+    cout<<"\n";
+}
+
+}
+
+// for n=4
+   #
+  ##
+ ###
+#### 
