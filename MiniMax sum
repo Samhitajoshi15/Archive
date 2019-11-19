@@ -1,0 +1,15 @@
+https://www.hackerrank.com/challenges/mini-max-sum/problem
+
+static void miniMaxSum(int[] arr) {
+    Arrays.sort(arr);
+    int minsum=0,maxsum=0,sum=0;
+    for(int j=0;j<5;j++)
+    {
+      sum+=arr[j];
+    }
+    minsum= sum-arr[4];
+    maxsum= sum-arr[0];
+
+    System.out.print(minsum+" "+maxsum);
+
+    }
