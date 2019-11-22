@@ -1,0 +1,63 @@
+//Creates and Prints Linked List
+
+#include<stdio.h>
+#include<stdlib.h>
+struct node
+{
+	int data;
+	struct node*next;
+}*ptr,*newnode;
+struct node *start=NULL;
+struct node *create(struct node*)
+{
+	int value;
+	printf("==========Enter -2 to exit===========\n");
+	printf("Enter the node value : ");
+	scanf("%d",&value);
+	while(value!=-2)
+	{
+	 newnode=(struct node*)malloc(sizeof(struct node));
+	 newnode->data = value;
+	 if(start==NULL)
+	 {
+	 newnode->next=NULL;
+	 start=newnode;
+	 }
+	 else
+	 {
+	 	ptr=start;
+	 	while(ptr->next!=NULL)
+	 	 ptr=ptr->next;
+	 	 
+	 	ptr->next=newnode;
+		 newnode->next=NULL;
+	 }
+	printf("Enter the node value : ");
+	scanf("%d",&value);
+   }
+	return start;
+}
+
+struct node *print(struct node*)
+{
+	if(start==NULL)
+	printf("The Linked List is empty ");
+	else
+	{
+	  ptr=start;
+	  while(ptr->next!=NULL)
+	  {
+	  	printf("%d -> ",ptr->data);
+	  	ptr=ptr->next;
+	  }
+	  printf("%d -> NULL",ptr->data);	
+	}
+	return start;
+}
+
+int main()
+{
+	create(start);
+	print(start);
+	return 0;
+}
