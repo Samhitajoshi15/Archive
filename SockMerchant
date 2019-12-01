@@ -1,0 +1,22 @@
+#Written as a Program not as a Function
+
+#Solution to HackerRank Problem Sock Merchant
+n = int(input("Enter the number of test cases : "))
+print('\nEnter the colours for the socks :')
+i=0
+socks=[]
+while(i<n):
+    clr=int(input())
+    socks.append(clr)
+    i=i+1
+myset=set(socks)
+counted=[]
+for i in myset:
+    counted.append(socks.count(i))
+pair=[]
+for i in counted:
+    pair.append(i//2)  
+sum=0
+for i in pair:
+    sum+=i
+print("The desired number of Pairs are "+str(sum))
